@@ -1,10 +1,10 @@
 .hero{
-    background-image: url(/frontend/public/assets/hero/3-imagen-freelancer\ \(1\).jpg);
+    background-image: url(/frontend/public/assets/hero/3-imagen-freelancer.jpg);
     background-position: center;
     background-size: cover;
     height: 45rem;
     position: relative;
-    text-align: center;
+    /* text-align: center; */
     color: var(--white);
 }
 
@@ -17,11 +17,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
-.hero__title {
+.hero__title{
     font-size: var(--fs-md);
-    text-align: center;
 }
 
 .hero__location{
@@ -30,7 +30,7 @@
 
 .hero__button{
     background-color: var(--primary-950);
-    padding: 1rem 2.4rem;
+    padding: 1.2rem 2.4rem;
     border-radius: 0.6rem;
     font-size: var(--fs-xs);
     font-weight: bold;
@@ -40,12 +40,12 @@
     text-align: center;
 }
 
-/*para que el cursor se convierta en mano*/
+/* Para que el cursor se convierta en mano */
 .hero__button:hover{
     cursor: pointer;
 }
 
-@media (width >768px) {
+@media (width > 768px) {
     .hero__button{
         width: auto;
     }

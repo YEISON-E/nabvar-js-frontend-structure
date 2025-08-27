@@ -3,33 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
+    <title>Home</title>
     <link rel="stylesheet" href="/frontend/public/css/main.css">
 
     <script src="/frontend/public/js/components/navbar.js" defer></script>
     <script src="/frontend/public/js/components/hero.js" defer></script>
     <!-- <script src="/frontend/public/js/components/card.js" defer></script> -->
-    <!-- script parra importar todas las cards  -->
+    <!-- Script para cargar todas las cards -->
     <script type="module">
-        import{loadCards} from "/frontend/public/js/components/card.js";
-        loadCards(".cards-container"); //clase para cargar todas las cards
+        import {loadCards} from "/frontend/public/js/components/card.js";
+        loadCards(".cards-container");//Clase para cargar todas las cards
     </script>
+
 
 </head>
 <body>
     <header class="header">
-       <div class="navbar-container"></div>
-    </header> 
-    <!-- /*seccion del hero*/ -->
+        <div class="navbar-container"></div>
+    </header>
+
+    <!-- section hero -->
     <section class="hero">
-        <div class="hero-container"></div>
+        <div class="hero__content"></div>
     </section>
 
-
+    <!-- section card -->
     <section class="cards-container">
+
     </section>
-    
-    <h1>Estoy en inicio</h1> 
+
+    <h1>Estoy en Inicio</h1>
 
 </body>
 </html>

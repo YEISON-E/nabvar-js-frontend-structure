@@ -11,9 +11,10 @@ html {
 }
 
 body {
-    padding: 0;
-    font-family: var(--main-font);
+    /* background-color: var(--gray-900); */
     color: var(--black);
+    font-family: var(--main-font);
+    padding: 0;
     margin: 0;
 }
 
@@ -49,8 +50,8 @@ body {
 /* 5. Espaciados reutilizables */
 /* .margin-top {
     margin-top: 20px;
-}
-.margin-bottom {
+} */
+/* .margin-bottom {
     margin-bottom: 20px;
 }
 .padding {
